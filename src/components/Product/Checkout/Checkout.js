@@ -12,7 +12,7 @@ const Checkout = () => {
     // const {_id} = useParams();
     // const [products, setProducts] = useState([])
     // useEffect(() => {
-    //     fetch(`http://localhost:5000/product?id=${product._id}`)
+    //     fetch(`https://still-temple-31623.herokuapp.com/product?id=${product._id}`)
     //     .then(response => response.json())
     //     .then(data => setProduct(data.product))
     // }, [])

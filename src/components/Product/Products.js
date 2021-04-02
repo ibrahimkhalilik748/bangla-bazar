@@ -8,7 +8,7 @@ const Products = ({ product }) => {
     console.log(product.imageURL);
     return (
         <div className="">
-            <Card style={{ width: '18rem', height: '300px' }}>
+            <Card style={{ width: '18rem', height: '450px' }}>
                 <Card.Img variant="top"  src={product.imageURL} />
                 <Card.Body>
                     <Card.Title>{product.name} - {product.wight}</Card.Title>
