@@ -18,14 +18,14 @@ const Admin = () => {
                     <li className="btn btn-outline-success m-1"><Link to="/addProducts">Add Product</Link></li>
                     <li className="btn btn-outline-success m-1"><Link to="/">Edit Product</Link></li>
                 </ul>
-            </div><br/><br/>
+            </div><br /><br />
             <Switch>
                 <Route path="/manageProduct">
                     <ManageProduct></ManageProduct>
                 </Route>
                 <Route path="/addProducts">
-              <AddProducts></AddProducts>
-            </Route>
+                    <AddProducts></AddProducts>
+                </Route>
             </Switch>
         </Router>
     );

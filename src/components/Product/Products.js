@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import './Product.css'
 
 const Products = ({ product }) => {
+    // console.log(imageURL)
+    console.log(product.imageURL);
     return (
         <div className="">
             <Card style={{ width: '18rem', height: '300px' }}>
-                <Card.Img variant="top" style={{width: '100%'}} src={product.imageURL} />
+                <Card.Img variant="top"  src={product.imageURL} />
                 <Card.Body>
                     <Card.Title>{product.name} - {product.wight}</Card.Title>
                     <Card.Body className="row">

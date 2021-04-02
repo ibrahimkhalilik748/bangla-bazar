@@ -4,7 +4,10 @@ import { userContext } from '../../../App';
 import CheckBox from './CheckBox';
 
 const Checkout = () => {
+
     const [product, setProduct] = useContext(userContext);
+
+
     // // const {name, price} = props.products;
     // const {_id} = useParams();
     // const [products, setProducts] = useState([])
